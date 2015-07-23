@@ -7,6 +7,4 @@ They're going to help put and end to that nasty 'unresponsive script' dialog tha
 Workers utilize thread-like message passing to achieve parallelism. They're perfect for keeping your 
 UI refresh, performant, and responsive for users.
 
-This example demonstrares the classic example of finding a list of prime numbers in the given range. The UI often becomes unrepsonsive
-when dealing with large requested prime numbers. This blurb of code shows how to tackle this kind of requests with webworkers in
-javascript.
+This example demonstrates the classic example of finding a list of prime numbers in the given range. The UI often becomes unresponsive when dealing with large requested prime numbers. This blurb of code shows how to tackle this kind of requests with webworkers in javascript.
