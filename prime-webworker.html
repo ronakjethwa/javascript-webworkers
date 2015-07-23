@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prime Numbers using Web Workers</title>
+    <script>
+        var worker = new Worker('prime-worker.js');
+        worker.addEventListener('message', function(event){
+            console.log(event.data);
+            document.querySelector('div').innerHTML = event.data;
+        });
+        worker.postMessage(100000);
+    </script>
+</head>
+<body>
+The Prime Numbers in the given limit are...
+<div></div>
+
+</body>
+</html>
