@@ -1,4 +1,4 @@
-#Handling Webworkers using JavaScript
+## Handling Webworkers using JavaScript
 
 Web Workers allow you to do things like fire up long-running scripts to handle computationally intensive tasks, 
 but without blocking the UI or other scripts to handle user interactions. 
